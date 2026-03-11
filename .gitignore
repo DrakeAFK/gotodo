@@ -1,0 +1,99 @@
+# ------------------------------
+# Go build artifacts
+# ------------------------------
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Go coverage / profiling
+coverage.*
+*.coverprofile
+profile.cov
+cpu.prof
+mem.prof
+*.pprof
+
+# Build directories
+bin/
+dist/
+build/
+
+# ------------------------------
+# Go workspace / modules
+# ------------------------------
+go.work
+go.work.sum
+
+# Vendor directory (optional)
+# Uncomment if you DO NOT commit vendored deps
+# vendor/
+
+# ------------------------------
+# Environment / local config
+# ------------------------------
+.env
+.env.*
+*.local
+
+# ------------------------------
+# OS files
+# ------------------------------
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ------------------------------
+# Editors / IDEs
+# ------------------------------
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.tmp
+project.context.md
+
+# Vim
+*.un~
+
+# ------------------------------
+# Logs
+# ------------------------------
+*.log
+
+# ------------------------------
+# Temporary / misc
+# ------------------------------
+tmp/
+temp/
+.cache/
+
+# ------------------------------
+# Generated binaries with project name
+# ------------------------------
+gotodo
+gotodo.exe
+
+# ------------------------------
+# Test binaries (go test -c)
+# ------------------------------
+*.test
+
+# ------------------------------
+# Debug binaries
+# ------------------------------
+__debug_bin
+
+# ------------------------------
+# GoLand / JetBrains
+# ------------------------------
+.idea/
+
+# ------------------------------
+# VSCode test / debug artifacts
+# ------------------------------
+.vscode-test/
