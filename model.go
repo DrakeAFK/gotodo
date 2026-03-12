@@ -838,7 +838,7 @@ func (m Model) View() string {
 			depth := m.depth(t.ID)
 			indent := ""
 			if depth > 0 {
-				indent = treeStyle.Render(strings.Repeat("  ", depth-1) + "└─ ")
+				indent = treeStyle.Render(strings.Repeat("  ", depth-1) + "  └─ ")
 			}
 
 			check := "[ ]"
